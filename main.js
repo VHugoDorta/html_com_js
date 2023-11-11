@@ -5,7 +5,7 @@ function validar(){
    elemento2 = parseFloat(elemento2);
 
    const mensagemsucesso = ("Validação concluída, pois o campo B está maior que o campo A");
-    const mensagemfalha = ("Campo B menor que Campo A, tente novamente");
+    const mensagemfalha = ("Campo B menor ou igual ao Campo A, tente novamente");
 
 if (elemento1 >= elemento2) {
     const stylefalha = document.querySelector('.mensagemdefalha');
