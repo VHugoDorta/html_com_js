@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B maior que A</title>
+    <link rel="stylesheet" href="/main.css">
+</head>
+<body>
+    <div class="header">
+        <header>
+            <h1>Digite dois números para Validar</h1>
+        </header>
+    </div>
+ <form onsubmit="return validar()" id="formulario" class="formulario1">
+    <br>
+    <label for="valor1">Campo A</label>
+    <input type="number" id="valor1" required placeholder="Digite o primeiro numero"/>
+    <br>
+    <br>
+    <label for="valor2">Campo B</label>
+    <input type="number" id="valor2" required placeholder="Digite o segundo numero"/>
+    <br>
+    <br>
+    <button id="validacao" class="botão" type="submit">Enviar</button>
+   <div class="mensagens">
+    <p class="mensagemdesucesso"></p>
+    <p class="mensagemdefalha"></p>
+   </div>
+</form>
+<script src="/main.js"></script>
+</body>
+</html>

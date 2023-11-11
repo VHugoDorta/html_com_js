@@ -1,0 +1,47 @@
+
+
+header{
+    text-align: center;
+    max-width: 1280px;
+    padding: 16px 0;
+    width: 100%;
+    margin: 0 20;
+    margin-top: 100px;
+}
+
+.formulario1{
+    margin: 0 auto;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+    background: linear-gradient(to top, #09203f 0%, #537895 100%);
+    width: 300px;
+    
+}
+
+.botão{
+    width: 90px;
+    margin-left: 30px ;
+    height: 20px;
+}
+
+body{
+    background: linear-gradient(89deg, rgb(21, 74, 189) 0.1%, rgb(26, 138, 211) 51.5%, rgb(72, 177, 234) 100.2%);
+}
+
+.mensagemdesucesso{
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    color: green;
+    margin-top: 30px;
+}
+
+.mensagemdefalha{
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
+    color: red;
+    margin-top: 30px;
+}
